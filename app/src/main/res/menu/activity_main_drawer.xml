@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@mipmap/ic_group" android:id="@+id/people" android:title="@string/people_label" />
+        <item android:icon="@mipmap/ic_message" android:id="@+id/messages" android:title="@string/messages_label" />
+    </group>
+    <item android:title="@string/second_category">
+    <menu>
+        <item android:icon="@mipmap/ic_settings" android:id="@+id/nav_1" android:title="@string/settings_label" />
+        <item android:icon="@mipmap/ic_power" android:id="@+id/logout" android:title="@string/logout_label" />
+    </menu> />
+    </item>
+</menu>
